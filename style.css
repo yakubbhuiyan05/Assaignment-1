@@ -1,0 +1,148 @@
+/* common styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+.btn-1 a{
+  border: 1px solid rgba(13, 19, 33, 0.8);
+  border-radius: 8px;
+  padding: 17px 24px 17px 24px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  color: rgb(13, 19, 33);
+  transition: 0.3s;
+}
+.btn-1 a:hover{
+  background-color: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+}
+.btn-2 a{
+  display: inline-block;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  padding: 17px 24px 17px 24px;
+  color: rgb(255, 255,255);
+  background-color: rgb(13, 19, 33);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  transition: .3s;
+}
+.btn-2 a:hover{
+  background-color: rgb(255, 255,255);
+  color: rgb(13, 19, 33);
+}
+/* font-style */
+body {
+  font-family: "Azeret Mono", monospace;
+}
+/* nav-bar style */
+
+.nav-bar{
+  padding-bottom: 35px ;
+  padding-top: 38px;
+}
+.nav-bar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+  display:flex;
+}
+.nav-title{
+color: rgb(13, 19, 33);
+font-weight: 800;
+line-height: 33px;
+}
+/* banner-styles */
+.banner-part{
+  background: url("web-media/Hero-bg.png") no-repeat center;
+  background-size: cover;
+  padding-bottom: 44px;
+  padding-top: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.banner-header{
+  width: 998px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+}
+.banner-para{
+  width: 852px;
+  margin-bottom: 32px;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.main-body{
+  display: flex;
+  flex-direction: column;
+
+}
+.group-3{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+}
+.group-4{
+  /* Frame 9 */
+position: static;
+width: 946px;
+height: 336px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.group-5{
+  /* Frame 10 */
+position: static;
+width: 946px;
+height: 336px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
