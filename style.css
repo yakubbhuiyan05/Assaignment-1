@@ -225,3 +225,43 @@ width: 468px;
 .card-section .javascript{
   background: rgba(255, 223, 0, 0.05);
 }
+.support{
+  background: rgba(0, 0, 0, 0.2);
+}
+.support-banner{
+  background: url("web-media/handshake.jpg") no-repeat center;
+  background-size: cover;
+  padding: 64px 48px 64px 48px;
+}
+.support-banner h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 16px;
+}
+.support-banner p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+}
+.support-banner .form{
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+button {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  color: rgb(13, 19, 33);
+}
