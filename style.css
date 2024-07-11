@@ -183,3 +183,45 @@ width: 468px;
   border-radius: 16px;
   margin-bottom: 149px;
 }
+.group-5{
+  padding-bottom: 111px;
+}
+.card-section{
+  display: flex;
+  justify-content: space-between;
+}
+.ins-card{
+  padding: 40px;
+  border-radius: 16px;
+}
+.ins-card h3 {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  color: rgb(13, 19, 33);
+}
+.ins-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(13, 19, 33, 0.7);
+  margin-top: 8px;
+  margin-bottom: 24px;
+  width: 284px;
+}
+.ins-card a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: rgb(13, 19, 33);
+}
+.card-section .html{
+  background: rgba(255, 76, 30, 0.05);
+}
+.card-section .css{
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-section .javascript{
+  background: rgba(255, 223, 0, 0.05);
+}
