@@ -124,6 +124,7 @@ line-height: 33px;
   line-height: 26px;
   text-align: center;
   color: rgba(13, 19, 33, 0.7);
+  margin: 0 auto;
   margin-top: 24px;
   margin-bottom: 48px;
   width: 852px;
@@ -170,4 +171,14 @@ width: 468px;
   flex-direction: row-reverse;
   justify-content: flex-end;
   gap: 48px;
+}
+.group-4 iframe {
+  width: 1076px;
+  height: 550px;
+  margin: 10px 0px;
+  border-radius: 16px;
+}
+.iframe-link{
+  padding: 32px;
+  margin-bottom: 149px;
 }
